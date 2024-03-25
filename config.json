@@ -1,0 +1,26 @@
+{
+  "instructions": [
+    "<p>",
+    "Fill out the form below, and click <b>Send</b> to submit it.",
+    "</p>"
+  ],
+  "subject": "I want some CHAD por favor!!!",
+  "title": "Contact",
+  "enable_form_download": false,
+  "form_backend_url": "https://formspree.io/f/xqkrdwyj",
+  "ignore_file_upload": true,
+  "questions": [
+    {
+      "label": "Name",
+      "name": "name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Email",
+      "name": "email",
+      "type": "email",
+      "required": true
+    }
+  ]
+}
