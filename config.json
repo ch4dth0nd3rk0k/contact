@@ -407,6 +407,7 @@
           "selected": true,
           "disabled": true
         },
+        {"label": "Duolicious", "value": "duolicious"},
         {"label": "Tinder", "value": "tinder"},
         {"label": "Bumble", "value": "bumble"},
         {"label": "OkCupid", "value": "okcupid"},
