@@ -453,7 +453,8 @@
         {"label": "Sweatt", "value": "sweatt"},
         {"label": "Dine", "value": "dine"},
         {"label": "LuvByrd", "value": "luvbyrd"},
-        {"label": "MeetMindful", "value": "meetmindful"}
+        {"label": "MeetMindful", "value": "meetmindful"},
+        {"label": "Other", "value": "other"}
       ],
       "custom": {
         "multiple": true
@@ -501,6 +502,7 @@
           "selected": true,
           "disabled": true
         },
+        {"label": "No Social Media", "value": "no-social-media"},
         {"label": "Facebook", "value": "facebook"},
         {"label": "Twitter", "value": "twitter"},
         {"label": "Instagram", "value": "instagram"},
@@ -547,7 +549,8 @@
         {"label": "Flickr", "value": "flickr"},
         {"label": "MySpace", "value": "myspace"},
         {"label": "hi5", "value": "hi5"},
-        {"label": "Orkut", "value": "orkut"}
+        {"label": "Orkut", "value": "orkut"},
+        {"label": "Other", "value": "other"}
       ],
       "custom": {
         "multiple": true
