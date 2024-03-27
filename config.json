@@ -737,8 +737,98 @@
       }
     },
     {
+      "label": "Current relationship status",
+      "name": "relationship_status",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {"label": "Single", "value": "single"},
+        {"label": "In a relationship", "value": "in_relationship"},
+        {"label": "Engaged", "value": "engaged"},
+        {"label": "Married", "value": "married"},
+        {"label": "Divorced", "value": "divorced"},
+        {"label": "Widowed", "value": "widowed"},
+        {"label": "Separated", "value": "separated"},
+        {"label": "Open relationship", "value": "open_relationship"},
+        {"label": "Complicated", "value": "complicated"},
+        {"label": "Polyamorous", "value": "polyamorous"},
+        {"label": "Long-distance", "value": "long_distance"},
+        {"label": "Casually dating", "value": "casually_dating"},
+        {"label": "Exclusive", "value": "exclusive"},
+        {"label": "On a break", "value": "on_a_break"},
+        {"label": "Waiting for someone", "value": "waiting_for_someone"},
+        {"label": "Friendship", "value": "friendship"},
+        {"label": "Other", "value": "other"}
+      ]
+    },
+    {
+      "label": "Type of relationship you are seeking",
+      "name": "desired_relationship",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select all that apply--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {"label": "Friendship", "value": "friendship"},
+        {"label": "Casual dating", "value": "casual_dating"},
+        {"label": "Long-term relationship", "value": "long_term_relationship"},
+        {"label": "Marriage", "value": "marriage"},
+        {"label": "Companionship", "value": "companionship"},
+        {"label": "Fun and adventure", "value": "fun_and_adventure"},
+        {"label": "Physical intimacy", "value": "physical_intimacy"},
+        {"label": "Emotional connection", "value": "emotional_connection"},
+        {"label": "Exploring new experiences", "value": "exploring_new_experiences"},
+        {"label": "Learning and growth", "value": "learning_and_growth"},
+        {"label": "Shared interests and hobbies", "value": "shared_interests_and_hobbies"},
+        {"label": "Intellectual connection", "value": "intellectual_connection"},
+        {"label": "Support and understanding", "value": "support_and_understanding"},
+        {"label": "Acceptance and respect", "value": "acceptance_and_respect"},
+        {"label": "Chemistry and attraction", "value": "chemistry_and_attraction"},
+        {"label": "Mutual goals and values", "value": "mutual_goals_and_values"},
+        {"label": "Building a family", "value": "building_a_family"},
+        {"label": "Travel partner", "value": "travel_partner"},
+        {"label": "Creative collaboration", "value": "creative_collaboration"},
+        {"label": "Spiritual connection", "value": "spiritual_connection"},
+        {"label": "Other", "value": "other"}
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
       "label": "Currently how many different people are you dating/talking to",
       "name": "current_dating_pool",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"
+      }
+    },
+    {
+      "label": "How many sexual partners have you had",
+      "name": "body_count",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"
+      }
+    },
+    {
+      "label": [
+        "How many long-term (minimum 1 year)",
+        "relationships have you engaged in"
+      ],
+      "name": "ltr_count",
       "type": "number",
       "required": true,
       "custom": {
