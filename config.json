@@ -816,7 +816,20 @@
     },
     {
       "label": "How many sexual partners have you had",
-      "name": "body_count",
+      "name": "body_count_total",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"
+      }
+    },
+    {
+      "label": [
+        "What is your body count per decade rate?",
+        "Calculate this by dividing your body count by your age and multiplying by 10",
+        "(i.e. (body_count / age) x 10)"
+      ],
+      "name": "body_count_rate",
       "type": "number",
       "required": true,
       "custom": {
