@@ -469,3 +469,17 @@ def test_downloads_disabled(disabled_form_download_config: Dict[str, Any]) -> No
 def test_missing_email_config_schema(missing_email_config: Dict[str, Any]) -> None:
     """Check that the given config.json schema for no email is correct."""
     assert check_config_schema(missing_email_config)
+
+
+@pytest.mark.fixture
+def test_custom_buttons_config_schema(custom_buttons_config: Dict[str, Any]) -> None:
+    """Check that the given config.json schema for custom buttons is correct."""
+    assert check_config_schema(custom_buttons_config)
+
+
+@pytest.mark.fixture
+def test_custom_missing_field_config_schema(
+    custom_missing_field_config: Dict[str, Any]
+) -> None:
+    """Check that the given config.json schema for missing field is correct."""
+    assert check_config_schema(custom_missing_field_config)
