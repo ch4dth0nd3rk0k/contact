@@ -15,7 +15,7 @@
     "Thank you for your time and best of luck.",
     "</p>"
   ],
-  "subject": "I want some CHAD por favor!!!",
+  "subject": "New Match Candidate",
   "title": "Contact",
   "enable_form_download": false,
   "form_backend_url": "https://formspree.io/f/xqkrdwyj",
@@ -1029,6 +1029,41 @@
       "name": "personal_website",
       "type": "url",
       "required": false
+    },
+    {
+      "label": [
+        "In your own words, tell me about what you are ideally looking for",
+        "in terms of relationships. Be as detailed and specific as you can.",
+        "Do not be shy, be brutally honest about what you are looking for.",
+        "The essay requires a minimum of 3,000 characters",
+        "(about 500 english words) and a max of 6,000 characters",
+        "(about 1000 english words)"
+      ],
+      "name": "ideal_match_essay",
+      "type": "textarea",
+      "required": true,
+      "custom": {
+        "minlength": "3000",
+        "maxlength": "6000"
+      }
+    },
+    {
+      "label": [
+        "In your own words, tell me about why we match?",
+        "Be specific about why you are contacting me, and based off",
+        "of what you know about me why we match?",
+        "What about you specifically makes you compatible with me?",
+        "The essay requires a minimum of 3,000 characters",
+        "(about 500 english words) and a max of 6,000 characters",
+        "(about 1000 english words)"
+      ],
+      "name": "our_match_essay",
+      "type": "textarea",
+      "required": true,
+      "custom": {
+        "minlength": "3000",
+        "maxlength": "6000"
+      }
     },
     {
       "label": [
