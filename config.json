@@ -1018,11 +1018,11 @@
       "label": [
         "Please add the account/user name(s)",
         "for the above selected social media platforms",
-        "(type NONE if you have no social media)"
+        "(optional)"
       ],
       "name": "social_account_names",
       "type": "textarea",
-      "required": true
+      "required": false
     },
     {
       "label": "Optionally add a personal website",
@@ -1034,36 +1034,22 @@
       "label": [
         "In your own words, tell me about what you are ideally looking for",
         "in terms of relationships. Be as detailed and specific as you can.",
-        "Do not be shy, be brutally honest about what you are looking for.",
-        "The essay requires a minimum of 3,000 characters",
-        "(about 500 english words) and a max of 6,000 characters",
-        "(about 1000 english words)"
+        "Do not be shy, be brutally honest about what you are looking for."
       ],
       "name": "ideal_match_essay",
       "type": "textarea",
-      "required": true,
-      "custom": {
-        "minlength": "3000",
-        "maxlength": "6000"
-      }
+      "required": true
     },
     {
       "label": [
         "In your own words, tell me about why we match?",
         "Be specific about why you are contacting me, and based off",
         "of what you know about me why we match?",
-        "What about you specifically makes you compatible with me?",
-        "The essay requires a minimum of 3,000 characters",
-        "(about 500 english words) and a max of 6,000 characters",
-        "(about 1000 english words)"
+        "What about you specifically makes you compatible with me?"
       ],
       "name": "our_match_essay",
       "type": "textarea",
-      "required": true,
-      "custom": {
-        "minlength": "3000",
-        "maxlength": "6000"
-      }
+      "required": true
     },
     {
       "label": [
