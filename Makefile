@@ -27,7 +27,7 @@ CURRENTDIR := $(PWD)
 
 # docker-related variables
 DCTNR := webserver.$(notdir $(PWD))
-SRCPATH = /usr/local/src/parley
+SRCPATH = /usr/local/src/contact
 DCKRIMG = ghcr.io/ch4dth0nd3rk0k/contact:master
 DCKRBLD = docker build -t ${DCKRIMG} . --load
 DCKRUSR = --user 1000:1000
@@ -52,7 +52,7 @@ server-container:
 		           --rm \
 		           --name ${DCTNR} \
 		           -p 8000 \
-		           -v "${CURRENTDIR}":/usr/local/src/parley \
+		           -v "${CURRENTDIR}":/usr/local/src/contact \
 		           ${DCKROPT} \
 		           ${DCKRIMG} \
 		           python3 -m http.server 8000 && \
