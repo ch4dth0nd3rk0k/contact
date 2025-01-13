@@ -33,6 +33,12 @@
       "required": true
     },
     {
+      "label": "Phone Number (optional)",
+      "name": "phone_number",
+      "type": "tel",
+      "required": false
+    },
+    {
       "label": "Name",
       "name": "name",
       "type": "text",
