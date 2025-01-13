@@ -1021,7 +1021,7 @@
       "label": [
         "In your own words, tell me about what you are ideally looking for",
         "in terms of relationships. Be as detailed and specific as you can.",
-        "Do not be shy, be brutally honest about what you are looking for."
+        "Do not be shy, be brutally honest about what you are looking for"
       ],
       "name": "ideal_match_essay",
       "type": "textarea",
@@ -1032,9 +1032,38 @@
         "In your own words, tell me about why we match?",
         "Be specific about why you are contacting me, and based off",
         "of what you know about me why we match?",
-        "What about you specifically makes you compatible with me?"
+        "What about you specifically makes you compatible with me"
       ],
       "name": "our_match_essay",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
+        "What do you believe you bring to a relationship?",
+        "In other words what do you believe you have to offer another",
+        "person in a relationship"
+      ],
+      "name": "bring_2_table",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
+        "Have you ever felt like you needed to test a partner's boundaries?",
+        "What was your thought process behind it"
+      ],
+      "name": "test_partner_boundaries",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
+        "A lot of people say they want to be challenged or put in their place.",
+        "What does that mean to you, and do you think it adds value to a relationship?",
+        "Is it something you look for specifically"
+      ],
+      "name": "challenge_seeking",
       "type": "textarea",
       "required": true
     },
