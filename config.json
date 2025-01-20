@@ -1080,6 +1080,19 @@
     },
     {
       "label": [
+        "Can you give a few examples of how you have invested in yourself",
+        "over the years? This can be anything where you personally had to",
+        "commit the time and energy to achieve some goal. For example, have you",
+        "started your own business? Built your own home? Completed higher education?",
+        "Learned a specific skill, trade, or craft? Please be as detailed",
+        "and verbose as possible. Write as much as you want"
+      ],
+      "name": "self_investing",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
         "Please type your initials below to verify that",
         "you have read the following article",
         "(<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
